@@ -1,17 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PEAS Framework</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; color: #333; }
-    header { background: #222; color: #fff; padding: 2rem 1rem; text-align: center; }
-    section { padding: 2rem 1.5rem; max-width: 800px; margin: auto; background: #fff; margin-bottom: 1rem; }
-    h1, h2 { color: #111; }
-    .button { display: inline-block; padding: 0.75rem 1.25rem; background: #007BFF; color: #fff; text-decoration: none; border-radius: 5px; }
-    footer { background: #222; color: #ccc; padding: 1rem; text-align: center; font-size: 0.9rem; }
-    code { font-size: 0.85rem; color: #444; background: #eee; padding: 0.25rem 0.5rem; border-radius: 4px; }
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f7f9fb;
+      color: #222;
+    }
+
+    header {
+      background: linear-gradient(to right, #222, #2a2a2a);
+      color: #fff;
+      text-align: center;
+      padding: 3rem 1rem 2rem;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #ccc;
+    }
+
+    section {
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      color: #111;
+      margin-bottom: 0.5rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background: #0056c7;
+    }
+
+    code {
+      display: block;
+      background: #eee;
+      padding: 0.75rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+      word-break: break-all;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      padding: 1.5rem;
+      background: #f1f1f1;
+      color: #666;
+    }
   </style>
 </head>
 <body>
@@ -28,26 +94,24 @@
 
 <section>
   <h2>Download the White Paper</h2>
-  <p>Version 1.0 (June 2025) — by Orin Ash</p>
+  <p><strong>Version 1.0 (June 2025)</strong> — by Orin Ash</p>
   <a href="PEAS_White_Paper_v1.0_Stewardship_Updated.pdf" class="button" download>📄 Download PDF</a>
-  <p><strong>SHA-256 Hash:</strong><br>
-    <code>f204c42b4e19e942c84d55c06a001d440371bd89634c7ce2cbc011c78f6eabf4</code>
-  </p>
+  <code>SHA-256: f204c42b4e19e942c84d55c06a001d440371bd89634c7ce2cbc011c78f6eabf4</code>
 </section>
 
 <section>
   <h2>Core Principles of PEAS</h2>
   <ul>
-    <li>🔁 Wealth Reverts to Society After Death</li>
-    <li>🧑‍⚖️ Sortition-Based Governance (Juries & Stewards)</li>
-    <li>💡 Modular, Upgradable Protocols (Adaptive Constitution)</li>
-    <li>📲 Citizen Participation via Government Devices</li>
-    <li>🌍 Transition Timeline over 200 Years</li>
+    <li>Wealth returns to the public after death</li>
+    <li>Sortition-based governance (jury + steward model)</li>
+    <li>Adaptive protocols that evolve over time</li>
+    <li>Public participation via secured digital devices</li>
+    <li>Multi-generational transition plan</li>
   </ul>
 </section>
 
 <footer>
-  &copy; 2025 PEAS Framework. All rights reserved. Written by Orin Ash. | Proof of Authorship embedded in white paper
+  &copy; 2025 PEAS Framework. Written by Orin Ash. Authorship hash embedded in the document.
 </footer>
 
 </body>
