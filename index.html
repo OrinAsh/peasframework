@@ -1,157 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>PEAS Framework</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="white-paper.html">White Paper</a></li>
-        <li><a href="serialized-novel.html">Serialized Novel</a></li>
-        <li><a href="reader-pledge.html">Reader Pledge</a></li>
-        <li><a href="about.html">About the Author</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!-- Home Page Content -->
-  <main id="home">
-    <h1>Welcome to the Public Equity Allocation System (PEAS)</h1>
-    <p>PEAS is a manifesto for a just and participatory economic order. Explore our vision, core principles, and get involved.</p>
-    <a class="btn" href="white-paper.html">Download the White Paper (DOI: 10.5281/zenodo.15659183)</a>
-  </main>
-  <footer>
-    <p>&copy; 2025 Orin Ash</p>
-  </footer>
-</body>
-</html>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: #f7f9fb;
+      color: #222;
+    }
 
-<!-- white-paper.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>PEAS White Paper</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="white-paper.html">White Paper</a></li>
-        <li><a href="serialized-novel.html">Serialized Novel</a></li>
-        <li><a href="reader-pledge.html">Reader Pledge</a></li>
-        <li><a href="about.html">About the Author</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="white-paper">
-    <h1>PEAS White Paper v1.0</h1>
-    <p>Cite as: Orin Ash, “Public Equity Allocation System (PEAS) White Paper v1.0,” <a href="https://doi.org/10.5281/zenodo.15659183" target="_blank" rel="noopener">10.5281/zenodo.15659183</a>, June 2025.</p>
-    <p><a class="btn" href="https://doi.org/10.5281/zenodo.15659183" target="_blank" rel="noopener">Download PDF</a></p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Orin Ash</p>
-  </footer>
-</body>
-</html>
+    section {
+      background: #fff;
+      margin: 2rem auto;
+      padding: 2rem;
+      max-width: 800px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    }
 
-<!-- serialized-novel.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Serialized Novel</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="white-paper.html">White Paper</a></li>
-        <li><a href="serialized-novel.html">Serialized Novel</a></li>
-        <li><a href="reader-pledge.html">Reader Pledge</a></li>
-        <li><a href="about.html">About the Author</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="serialized-novel">
-    <h1>Serialized Novel</h1>
-    <p>Coming soon on Royal Road and Substack. Stay tuned for updates and comment threads.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Orin Ash</p>
-  </footer>
-</body>
-</html>
+    h1, h2 {
+      color: #111;
+      margin-bottom: 0.5rem;
+    }
 
-<!-- reader-pledge.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Reader Pledge</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="white-paper.html">White Paper</a></li>
-        <li><a href="serialized-novel.html">Serialized Novel</a></li>
-        <li><a href="reader-pledge.html">Reader Pledge</a></li>
-        <li><a href="about.html">About the Author</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="reader-pledge">
-    <h1>Reader Pledge</h1>
-    <p>Support the ongoing research and writing on Patreon:</p>
-    <a class="btn" href="https://patreon.com/peasframework" target="_blank" rel="noopener">Visit our Patreon</a>
-  </main>
-  <footer>
-    <p>&copy; 2025 Orin Ash</p>
-  </footer>
-</body>
-</html>
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1.5rem;
+    }
 
-<!-- about.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About the Author</title>
-  <link rel="stylesheet" href="styles.css">
+    header h1 {
+      font-size: 2.2rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.05rem;
+      margin-top: 0.5rem;
+      color: #444;
+    }
+
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.2rem;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.25rem;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      transition: background 0.3s;
+    }
+
+    .button:hover {
+      background: #0056c7;
+    }
+
+    code {
+      display: block;
+      background: #eee;
+      padding: 0.75rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      margin-top: 1rem;
+      word-break: break-word;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      padding: 2rem;
+      background: #f1f1f1;
+      color: #666;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul class="nav-list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="white-paper.html">White Paper</a></li>
-        <li><a href="serialized-novel.html">Serialized Novel</a></li>
-        <li><a href="reader-pledge.html">Reader Pledge</a></li>
-        <li><a href="about.html">About the Author</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main id="about">
-    <h1>About Orin Ash</h1>
-    <p>Orin Ash (pen name) is the creator of PEAS and an independent researcher exploring equitable economic systems. Learn more on <a href="https://peasframework.com">peasframework.com</a>.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025 Orin Ash</p>
-  </footer>
+
+<!-- Hero Section -->
+<header>
+  <h1>PEAS: Public Equity Allocation System</h1>
+  <p>A Framework for Shared Wealth, Civic Governance, and Long-Term Stewardship</p>
+</header>
+
+<!-- Intro Paragraph -->
+<section>
+  <h2>What is PEAS?</h2>
+  <p>The Public Equity Allocation System (PEAS) is a democratic economic and governance model that redistributes wealth across generations, eliminates dynastic ownership, and replaces profit-driven hierarchies with participatory decision-making. Through jury-based leadership, transparent petition systems, and civic-owned capital, PEAS offers a long-term transition away from capitalism’s structural flaws—without revolutionary upheaval.</p>
+</section>
+
+<!-- White Paper Download -->
+<section>
+  <h2>Download the White Paper</h2>
+  <p><strong>Version 1.0 (June 2025)</strong> — by Orin Ash</p>
+  <a href="PEAS_White_Paper_v1.0_Stewardship_Updated.pdf" class="button" download>📄 Download PDF</a>
+  <code>SHA-256: f204c42b4e19e942c84d55c06a001d440371bd89634c7ce2cbc011c78f6eabf4</code>
+</section>
+
+<!-- Vision Highlights -->
+<section>
+  <h2>Core Principles of PEAS</h2>
+  <ul>
+    <li>Wealth returns to the public after death — no dynastic inheritance</li>
+    <li>Governance through juries, stewards, and public petition referendums</li>
+    <li>Economic stewardship replaces executive control in corporations</li>
+    <li>Every protocol is designed to evolve through structured public review</li>
+    <li>100–200 year global transition plan to prevent systemic disruption</li>
+  </ul>
+</section>
+
+<!-- Coming Soon -->
+<section>
+  <h2>Coming Soon</h2>
+  <ul>
+    <li>📄 <strong>Academic Paper</strong>: The full PEAS model with simulation (v2.0)</li>
+    <li>📚 <strong>Serialized Novel</strong>: Explore PEAS through fiction on Royal Road / Substack</li>
+    <li>📝 <strong>Reader Pledge</strong>: Help carry the idea forward</li>
+  </ul>
+</section>
+
+<!-- Contact -->
+<section>
+  <h2>Contact</h2>
+  <p>Questions or collaboration ideas? Email: <strong>orinash.writer [at] gmail.com</strong></p>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Orin Ash. All rights reserved. Site hosted via GitHub Pages.
+</footer>
+
 </body>
 </html>
